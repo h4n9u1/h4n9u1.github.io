@@ -1,4 +1,96 @@
-baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: "https://h4n9u1.github.io/"
+title: H4N9U1's 4RCH1V3
+paginate: 5
 theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: H4N9U1's 4RCH1V3
+  description: "#Programming #Development #System Management #Hacking"
+  keywords: [Blog, Portfolio]
+  author: H4N9U1
+#  images:
+  defaultTheme: dark
+  disableThemeToggle: true
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Welcome to H4N9U1's 4RCH1V3 \U0001F44B"
+    Content: |
+      * Hello! I'm Hunmin Kim (A.K.A H4N9U1 [hangɯl])
+      * Juninor Developer & Juninor Hacker, intersted in Server, System Management, DevOps, System Exploit, Reversing, etc.
+      * More Infomation is available at About page.
+
+  socialIcons:
+    - name: facebook
+      url: "https://www.facebook.com/profile.php?id=100005237165786"
+    - name: github
+      url: "https://github.com/h4n9u1"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: About
+      name: About
+      url: /about
+      weight: 30
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
