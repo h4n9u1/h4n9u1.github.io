@@ -4,13 +4,13 @@ jobs:
   deploy:
     runs-on: ubuntu-22.04
     steps:
+      - name: Git checkout
+        uses: actions/checkout@v3
+
       - name: Install & Set-up SSH Client
-        uses: webfactory/ssh-agent@v0.4.0
+        uses: webfactory/ssh-agent@v0.7.0
         with:
           ssh-private-key: ${{ secrets.DEPLOY_KEY }}
-
-      - name: Git checkout
-        uses: actions/checkout@v2
 
       - name: Update theme
         run: git submodule update --init --recursive
