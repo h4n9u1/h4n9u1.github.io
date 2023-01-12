@@ -10,7 +10,7 @@ jobs:
       - name: Install & Set-up SSH Client
         uses: webfactory/ssh-agent@v0.7.0
         with:
-          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Update theme
         run: git submodule update --init --recursive
