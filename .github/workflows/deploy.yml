@@ -1,0 +1,36 @@
+name: Deploy
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v3
+
+      - name: Install & Set-up SSH Client
+        uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Update theme
+        run: git submodule update --init --recursive
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.109.0"
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.TOKEN }}
+          external_repository: h4n9u1/h4n9u1.github.io
+          publish_dir: ./public
+          #   keep_files: true
+          user_name: h4n9u1
+          user_email: contact@h4n9u1.dev
+          publish_branch: gh-pages
+          cname: blog.h4n9u1.dev
