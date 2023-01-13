@@ -30,7 +30,7 @@ Copyright (C) 2022-2023 H4N9U1. Some rights reserved.
 
 게시글의 내용 중 소스 코드의 경우 명시된 경우 명시된 라이선스에 따라 이용할 수 있습니다. 라이선스가 명시 되지 않은 경우 MIT 라이선스에 따라 이용할 수 있습니다. 라이선스의 전문은 다음과 같습니다.
 
-```text
+{{< highlight text "linenos=false" >}}
 Copyright © 2022-2023 H4N9U1
 
 Permission is hereby granted, free of charge, to any person
@@ -47,7 +47,8 @@ included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
-```
+{{< / highlight >}}
+
 
 ---
 
@@ -55,36 +56,36 @@ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
 
 ### 나눔글꼴
 <https://hangeul.naver.com/font>
-```
+{{< highlight text "linenos=false" >}}
 Copyright (c) 2010, NAVER Corporation (https://www.navercorp.com/) with Reserved Font Name Nanum, Naver Nanum, NanumGothic, Naver NanumGothic, NanumMyeongjo, Naver NanumMyeongjo, NanumBrush, Naver NanumBrush, NanumPen, Naver NanumPen, Naver NanumGothicEco, NanumGothicEco, Naver NanumMyeongjoEco, NanumMyeongjoEco, Naver NanumGothicLight, NanumGothicLight, NanumBarunGothic, Naver NanumBarunGothic, NanumSquareRound, NanumBarunPen, MaruBuri, NanumSquareNeo
-```
+{{< / highlight >}}
 SIL OPEN FONT LICENSE
 
 ### D2Coding
 <https://github.com/naver/d2codingfont>
-```
+{{< highlight text "linenos=false" >}}
 Copyright (c) 2015, NAVER Corporation (http://www.navercorp.com), with Reserved Font Name D2Coding, D2Coding-Bold.
-```
+{{< / highlight >}}
 SIL OPEN FONT LICENSE
 
 ### JetBrains Mono
 <https://www.jetbrains.com/lp/mono/>
-```
+{{< highlight text "linenos=false" >}}
 Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)
-```
+{{< / highlight >}}
 SIL OPEN FONT LICENSE
 
 ### Hugo
 <https://gohugo.io/>
-```
+{{< highlight text "linenos=false" >}}
 Copyright 2022 The Hugo Authors.
-```
+{{< / highlight >}}
 Apahce License
 
 ### PaperMode
 <https://github.com/adityatelange/hugo-PaperMod>
-```
+{{< highlight text "linenos=false" >}}
 Copyright (c) 2020 nanxiaobei and adityatelange
 Copyright (c) 2021-2022 adityatelange
-```
+{{< / highlight >}}
 MIT License

@@ -72,12 +72,12 @@ params:
 
 menu:
   main:
-    - identifier: categories
-      name: categories
+    - identifier: Categories
+      name: Categories
       url: /categories/
       weight: 10
-    - identifier: tags
-      name: tags
+    - identifier: Tags
+      name: Tags
       url: /tags/
       weight: 20
     - identifier: About
@@ -88,9 +88,9 @@ menu:
 pygmentsUseClasses: true
 markup:
   highlight:
-    noClasses: false
+    noClasses: true
     # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
