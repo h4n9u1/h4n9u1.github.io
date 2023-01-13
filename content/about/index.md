@@ -24,7 +24,7 @@ UseHugoToc: false
 ShowShareButtons: false
 ---
 
-# Informatin
+# Information
 * Name: 김훈민(Hunmin Kim, A.K.A H4N9U1)
 * E-Mail: 
     * h4n9u1@gmail.com
