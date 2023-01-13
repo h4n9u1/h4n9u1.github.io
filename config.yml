@@ -1,7 +1,7 @@
 baseURL: "https://h4n9u1.github.io/"
 title: H4N9U1's 4RCH1V3
 paginate: 5
-theme: "PaperMod"
+theme: ["hugo-notice", "PaperMod"]
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -34,7 +34,7 @@ params:
   disableScrollToTop: false
   comments: false
   hidemeta: false
-  hideSummary: false
+  hideSummary: true
   showtoc: false
   tocopen: false
 
