@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hacking on H4N9U1&#39;s 4RCH1V3</title>
+    <link>https://h4n9u1.github.io/tags/hacking/</link>
+    <description>Recent content in Hacking on H4N9U1&#39;s 4RCH1V3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://h4n9u1.github.io/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best of The Best 10기 취약점 분석 트랙 합격 수기</title>
+      <link>https://h4n9u1.github.io/posts/bob10th/bob10th_%ED%95%A9%EA%B2%A9%EC%88%98%EA%B8%B0/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://h4n9u1.github.io/posts/bob10th/bob10th_%ED%95%A9%EA%B2%A9%EC%88%98%EA%B8%B0/</guid>
+      <description>KITRI 차세대 보안리더 양성 프로그램 Best of The Best 10기 취약점 분석 트랙 합격 수기</description>
+    </item>
+    
+  </channel>
+</rss>

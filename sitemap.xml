@@ -2,14 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://h4n9u1.github.io/about/</loc>
+    <loc>https://h4n9u1.github.io/posts/bob10th/bob10th_%ED%95%A9%EA%B2%A9%EC%88%98%EA%B8%B0/</loc>
+    <lastmod>2021-06-25T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://h4n9u1.github.io/tags/bob10th/</loc>
+    <lastmod>2021-06-25T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://h4n9u1.github.io/categories/</loc>
+    <lastmod>2021-06-25T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://h4n9u1.github.io/categories/essay/</loc>
+    <lastmod>2021-06-25T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://h4n9u1.github.io/</loc>
+    <lastmod>2021-06-25T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://h4n9u1.github.io/license/</loc>
+    <loc>https://h4n9u1.github.io/tags/hacking/</loc>
+    <lastmod>2021-06-25T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://h4n9u1.github.io/posts/</loc>
+    <lastmod>2021-06-25T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://h4n9u1.github.io/tags/</loc>
+    <lastmod>2021-06-25T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://h4n9u1.github.io/about/</loc>
+  </url><url>
+    <loc>https://h4n9u1.github.io/license/</loc>
   </url>
 </urlset>
