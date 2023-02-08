@@ -1,4 +1,4 @@
-baseURL: "https://h4n9u1.github.io/"
+baseURL: "https://blog.h4n9u1.dev/"
 title: H4N9U1's 4RCH1V3
 paginate: 5
 theme: ["hugo-notice", "PaperMod"]
